@@ -28,7 +28,6 @@ function App() {
           <Route path="/patients" element={<Pdashboard />} />
           <Route path="/medicines" element={<Medicines />} />
           <Route path = "/admin" element ={<Admin/>} />
-          <Route path = "/login" element ={<Login/>} />
           {/* <Route path="/surgery/:doctorId" element={<Surgery />} /> Updated route */}
           <Route path = "/doctor" element = {<Ddashboard />} />
           <Route path="/treatmentProcedure" element={<TreatmentProcedure />} />
